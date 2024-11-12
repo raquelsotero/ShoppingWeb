@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Total</title>
+</head>
+<body>
+<h1>Resultado del Cálculo</h1>
+<p>Monto original: <span th:text="${amount}" th:remove="tag"></span></p>
+<p>Total con descuento: <span th:text="${total}" th:remove="tag"></span></p>
+</body>
+
+
+</html>
